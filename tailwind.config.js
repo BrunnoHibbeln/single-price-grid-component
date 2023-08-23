@@ -8,17 +8,17 @@ module.exports = {
   theme: {
     extend: {
       screens: {
-        xs: '23.438',
-        '2xl': '90',
+        iPadPro: { raw: '(min-height: 1366px)' },
+        '2xl': '106rem',
       },
       colors: {
         cyan: 'hsl(179, 62%, 43%)',
-        'bright-yallow': 'hsl(71, 73%, 54%)',
+        'bright-yellow': 'hsl(71, 73%, 54%)',
         'light-gray': 'hsl(204, 43%, 93%)',
         'grayish-blue': 'hsl(218, 22%, 67%)',
       },
       fontFamily: {
-        karla: ['Karla', 'sans-serif'],
+        karla: ['var(--font-karla)'],
       },
       fontSize: {
         body: '1rem',
