@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${karla.variable} flex h-[120vh] items-center justify-center bg-light-gray font-karla xl:h-screen`}
+        className={`${karla.variable} flex h-[120vh] items-center justify-center bg-light-gray font-karla lg:h-screen`}
       >
         {children}
       </body>

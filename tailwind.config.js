@@ -8,7 +8,6 @@ module.exports = {
   theme: {
     extend: {
       screens: {
-        iPadPro: { raw: '(min-height: 1366px)' },
         '2xl': '106rem',
       },
       colors: {
